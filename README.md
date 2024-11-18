@@ -1,17 +1,26 @@
-# I would like to follow you
-#### at night
+# If I could go back in time
 
-<!--
-**CrazyGG3r/CrazyGG3r** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### I would be stuck forever trying to fix everything i did
+<br>
+<br>
 
-Here are some ideas to get you started:
+```python
+def travel_back(year,current_mistakes):
+  re_actions = {}
+  for a in current_mistakes:
+      new_Action = Correction_model.predict(a)
+      if Consequences.predict(new_Action) == "Good to go":
+          re_actions[current_mistakes] = new_Action
+      else:
+          date,new_mistakes = Consequences.build(new_Action)
+          travel_back(date,new_mistakes)
+  return re_actions
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+current_mistakes = ["writing this readme instead of progressing my fyp",]
+date = "18-11-2024"
+travel_back(date,current_mistakes)
+```
+
+<br>
+<br>
+so i will instead drop my younger self from a height of 25 feet for being retarded asf
