@@ -23,4 +23,4 @@ travel_back(date,current_mistakes)
 
 <br>
 <br>
-so i will just drop my younger self from a height of 25 feet for being retarded asf
+so i will just drop my retarded younger self from 25 feet
